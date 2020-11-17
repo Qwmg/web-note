@@ -1,7 +1,7 @@
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
-import MideaCommonComponents from '../../common-components/lib/index.js';
-import { EditForm } from '../../common-components/lib/index.js';
+import MideaCommonComponents from 'common-components/lib/index';
+// import { EditForm } from 'common-components/lib/index';
 
 export default ({
     Vue, // the version of Vue being used in the VuePress app

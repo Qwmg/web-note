@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "author": "ulivz<chl814@foxmail.com>",
+  "main": "index.js",
   "files": [
     "index.js",
     "styles",
@@ -16,7 +17,6 @@
     "fonts",
     "components"
   ],
-  "main": "index.js",
   "scripts": {
     "docs:build": "vuepress build docs",
     "docs:dev": "vuepress dev docs",
@@ -49,6 +49,7 @@
     "@vuepress/plugin-search": "^1.5.4",
     "ant-design-vue": "^1.6.5",
     "babel-polyfill": "^6.26.0",
+    "common-components": "https://github.com/Qwmg/common-components.git",
     "dayjs": "^1.8.19",
     "moment": "^2.28.0",
     "remove-markdown": "^0.3.0",
